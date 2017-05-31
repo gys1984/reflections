@@ -20,4 +20,9 @@ are not in any branch). Lastly, you can see which commits can be reached by an o
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 - All commits of the 2 merged branches are added to the master (or which ever branch was used for the merge) 
-branch, in chronological order.
+branch, in chronological order. 
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+It can save you a lot of time, because Git tells you where the conflicts are. However, you can still get into
+trouble, since Git only marks something as conflicted if the same lines are adjusted. Git does not look at the
+meaning of the code. By letting Git do automatic merging, you might get code that does not run as intended.
