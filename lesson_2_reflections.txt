@@ -8,3 +8,8 @@ directory and add them to the staging area. Finally you commit them to the repos
 How can you use the staging area to make sure you have one commit per logical change?
 - Only add those changes to the staging area that should be included in the logical change. Then,
 you can use git diff to see the changes between the staged files and the files in the working directory
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- When you are developing a new function. When you want to change a function, if it's a big change. When working on the
+function takes longer time, and you can't merge it into the master yet. When you are working with more persons on a project,
+and don't want to bother others with unfinished work, but still have it in the remote repository.
