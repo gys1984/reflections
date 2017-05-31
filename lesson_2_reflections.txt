@@ -17,3 +17,7 @@ and don't want to bother others with unfinished work, but still have it in the r
 How do the diagrams help you visualize the branch structure?
 - You can see where a new branch was created. Also, it shows which commits are in which branch (and which commits
 are not in any branch). Lastly, you can see which commits can be reached by an other commit.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- All commits of the 2 merged branches are added to the master (or which ever branch was used for the merge) 
+branch, in chronological order.
