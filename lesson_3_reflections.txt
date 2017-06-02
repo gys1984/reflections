@@ -6,3 +6,9 @@ Why might you want to always pull changes manually rather than having Git automa
 with your remote repository?
 - Change in the remote can cause your work on your own branch to break. It is important to see and be aware 
 of the changes, so that you are able to spot the conflicts with the work you are doing and to fix it right away.
+
+Describe the differences between forks, clones, and branches. Whe would you use one instead of another?
+- When you want to use a project created by some else (and hosted on GitHub) you can fork the project. In this
+way, the project will always link back to the creator. Clone you will use when you want to work on a project, and
+get it to your local machine. It sets up git tracking. Branches are used when working on specific bug fixes or when
+working on new functions. It's a good method when experimenting with your code.
