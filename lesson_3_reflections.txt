@@ -12,3 +12,7 @@ Describe the differences between forks, clones, and branches. Whe would you use 
 way, the project will always link back to the creator. Clone you will use when you want to work on a project, and
 get it to your local machine. It sets up git tracking. Branches are used when working on specific bug fixes or when
 working on new functions. It's a good method when experimenting with your code.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+- You now know the difference between the copy on the remote and the local copy, without having to get
+online. 
